@@ -137,6 +137,10 @@ picture > img {
     align-self: center;
   } 
 
+  .card > * {
+    flex-basis: 50%;
+  }
+
   .card > div {
     padding: 32px;
     display: flex;
@@ -173,7 +177,7 @@ picture > img {
   }
 
   .card > * {
-    flex: 1
+    flex-basis: 50%;
   }
 
   .card > div {
